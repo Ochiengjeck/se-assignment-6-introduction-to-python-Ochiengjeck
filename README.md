@@ -52,7 +52,7 @@ Setting up a virtual environment:
 
    
 python
-// Hello, World! program
+# Hello, World! program
 print("Hello, World!")
 
 
@@ -72,13 +72,13 @@ Explanation:
 
 Script example:
 python
-// Variable examples
+# Variable examples
 my_int = 10
 my_float = 3.14
 my_str = "Hello, Python!"
 my_bool = True
 
-// Printing variables
+# Printing variables
 print(my_int)
 print(my_float)
 print(my_str)
@@ -92,7 +92,7 @@ print(my_bool)
    
 Conditional statement (`if-else`):
 python
-// if-else example
+# if-else example
 x = 10
 if x > 5:
     print("x is greater than 5")
@@ -102,7 +102,7 @@ else:
 
 Loop (`for` loop):
 python
-// for loop example
+# for loop example
 for i in range(5):
     print(i)
 
@@ -116,13 +116,13 @@ Functions are reusable blocks of code that perform a specific task. They enhance
 
 Example:
 python
-// Function to add two numbers
+# Function to add two numbers
 def add_numbers(a, b):
     return a + b
 
-// Calling the function
+# Calling the function
 result = add_numbers(3, 5)
-print("Sum:", result)  // Output: Sum: 8
+print("Sum:", result)  # Output: Sum: 8
 
 
 
@@ -143,13 +143,13 @@ Dictionary:
 
 Script example:
 python
-// List example
+# List example
 my_list = [1, 2, 3, 4, 5]
-print(my_list[0])  // Accessing element by index
+print(my_list[0])  # Accessing element by index
 
-// Dictionary example
+# Dictionary example
 my_dict = {'name': 'Alice', 'age': 30, 'city': 'New York'}
-print(my_dict['age'])  // Accessing value by key
+print(my_dict['age'])  # Accessing value by key
 
 
 
@@ -161,9 +161,9 @@ Exception handling manages and responds to errors that occur during execution.
 
 Example:
 python
-// Exception handling example
+# Exception handling example
 try:
-    x = 1 / 0  // Division by zero error
+    x = 1 / 0  # Division by zero error
 except ZeroDivisionError as e:
     print("Error:", e)
 finally:
@@ -178,7 +178,7 @@ finally:
 
 Example:
 python
-// Importing and using math module
+# Importing and using math module
 import math
 
 radius = 5
@@ -193,7 +193,7 @@ print("Area of circle:", area)
 
 Reading from a file:
 python
-// Reading from a file
+# Reading from a file
 with open('myfile.txt', 'r') as f:
     content = f.read()
     print(content)
@@ -201,7 +201,7 @@ with open('myfile.txt', 'r') as f:
 
 Writing to a file:
 python
-// Writing to a file
+# Writing to a file
 data = ['apple', 'banana', 'cherry']
 with open('fruits.txt', 'w') as f:
     for item in data:
@@ -209,7 +209,7 @@ with open('fruits.txt', 'w') as f:
 
 
 
-// Submission Guidelines:
+# Submission Guidelines:
 - Your answers should be well-structured, concise, and to the point.
 - Provide code snippets or complete scripts where applicable.
 - Cite any references or sources you use in your answers.
